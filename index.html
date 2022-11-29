@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces">
+
+
+  <title>Frontend Mentor | Product preview card component</title>
+ 
+  <style>
+
+    body{
+      
+      font-weight: 500;
+      background-color: hsl(30, 38%, 92%);
+      margin: 0;
+      padding: 0;
+    }
+
+    p{
+      font-size: 14px;
+      line-height: 25px;
+    }
+
+    .product{
+      width: 530px;
+      margin: 90px auto;
+      background-color: white;
+      border-radius:10px;
+      height: 430px;
+      padding-right: 15px;
+    }
+
+    img{
+      width: 270px;
+      float: left;
+      margin-right: 25px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height: 430px;
+    }
+
+ 
+    .perfume{
+      text-transform: uppercase;
+      padding-top: 25px;
+    }
+
+    button{
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      width: 40%;
+      background-color: hsl(158, 36%, 37%);
+      cursor: pointer;
+      color: white;
+      border: 1px solid hsl(158, 36%, 37%);
+      font-weight: bold;
+    }
+
+    .price{
+      float: left;
+      color: hsl(158, 36%, 37%);
+      font-size: 30px;
+      font-weight: bold;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+
+    .prize{
+      margin-right: 20px;
+      margin-top: 25px;
+      text-decoration: line-through;
+    }
+
+  </style>
+</head>
+<body>
+  
+   
+    <div class="product">
+    <img src="images/image-product-desktop.jpg" alt="">
+
+      <h4 class="perfume">Perfume</h4>
+      <h2>Gabrielle <br> Essence Eau <br> De Parfum</h2>
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <p class="price">$149.99</p>
+      <p class="prize">$169.99</p>
+      <button><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+      <!-- <i class="fa-regular fa-cart-shopping"></i> -->
+    </div>
+
+    <script src="https://kit.fontawesome.com/60cdc8b8b5.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
